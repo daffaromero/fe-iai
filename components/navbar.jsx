@@ -135,7 +135,7 @@ export default function NavigationBar({ doUpdate }) {
         {/* Logo & Routes Link */}
         <div className="flex h-auto items-center">
           <Link href="/" className="flex text-2xl font-bold">
-            GC #10
+            EventHub
           </Link>
           {/* Route when MD*/}
           <div className="ml-6 hidden h-full text-lg md:flex md:w-auto md:items-center">

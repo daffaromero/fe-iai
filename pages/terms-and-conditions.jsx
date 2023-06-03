@@ -28,8 +28,7 @@ export default function Tnc() {
             <li>
               Tiket yang dianggap sah adalah yang dibeli melalui laman
               www.gmco-event.com. Panitia tidak bertanggung jawab atas pembelian
-              tiket melalui calo/platform yang bukan mitra resmi Grand Concert
-              Vol. 10 Anjangsana Simfoni.
+              tiket melalui calo/platform yang bukan mitra resmi Event Hub.
             </li>
             <li>Satu pembeli dapat melakukan pembelian maksimal 5 tiket.</li>
             <li>

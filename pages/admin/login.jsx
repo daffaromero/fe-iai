@@ -80,35 +80,21 @@ export default function AdminLogin() {
 
   return (
     <section className="max-w-screen block min-h-screen items-center justify-center bg-gmco-grey p-4 md:flex">
-      <div className="relative flex w-full max-w-screen-lg flex-col overflow-hidden rounded-lg bg-cover shadow-lg md:m-10 md:flex-row ">
+      <div className="relative flex w-full max-w-screen-lg flex-col overflow-hidden rounded-lg bg-cover shadow-lg md:m-10 md:flex-row md:items-center">
         {/* leftside */}
-        <div className="absolute bg-gmco-grey">
+        <div className="absolute h-full w-full bg-gmco-grey">
           <Image
-            src="/Micon-Cropped.webp"
+            src="/MoreMicon.webp"
             alt="bg mini concert"
-            className="object-cover opacity-40"
+            className="h-full w-auto object-cover opacity-50 "
             width={2000}
-            height={2000}
+            height={4000}
           />
         </div>
         <div className="place relative ml-3 mt-14 flex h-3/6 w-full flex-col p-4 text-white backdrop-filter sm:text-center md:mt-0 md:w-7/12 md:items-start md:p-10 ">
-          <h1 className="mb-3 text-4xl font-bold md:text-5xl">
-            {" "}
-            Grand Concert{" "}
-          </h1>
-          <p className="font-base mb-3 text-2xl md:text-3xl">Vol. 10</p>
-          <p className=" font-base text-2xl md:text-2xl">
-            {" "}
-            Anjangsana Simfoni{" "}
-          </p>
+          <h1 className="mb-3 text-4xl font-bold md:text-5xl"> Event Hub </h1>
+          <p className="font-base mb-3 text-2xl md:text-3xl">Admin</p>
         </div>
-        <Image
-          src="/logo-anjangsana.webp"
-          alt="logo gmco"
-          className="absolute left-5 top-3 w-32 md:left-9 md:top-[450px] md:w-52"
-          width={1000}
-          height={1000}
-        />
 
         <div className="right-0 mt-7 flex w-full flex-col items-center space-y-8 bg-gray-400 bg-opacity-50 p-4 py-32 backdrop-blur-sm backdrop-filter md:mt-0 md:w-5/12 md:py-40 ">
           <div className="-mt-7 flex flex-col items-center">
@@ -161,12 +147,12 @@ export default function AdminLogin() {
 
             <button
               type="submit"
-              className="mb-6 w-full rounded-full border-2 border-white bg-gmco-orange-secondarylight p-2 font-semibold text-white  hover:bg-gmco-yellow-secondary hover:text-gmco-white"
+              className="mb-6 w-full rounded-full bg-gmco-yellow-secondary p-2 font-semibold text-white shadow-md  hover:scale-105 "
             >
               LOG IN
             </button>
             <label className="pt-3 text-center text-xs text-gmco-white">
-              Gadjah Mada Chamber Orchestra
+              Event Hub by Trah Ganjil
             </label>
           </form>
         </div>

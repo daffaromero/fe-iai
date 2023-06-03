@@ -218,7 +218,7 @@ export default function Profile() {
           <div className="absolute flex h-64 w-full overflow-hidden bg-gmco-grey">
             <Image
               src="/MoreMicon.webp"
-              alt="background gmco"
+              alt="background eventhub"
               className="w-full scale-105 object-cover object-center opacity-50"
               width={1920}
               height={650}
@@ -277,7 +277,7 @@ export default function Profile() {
                   value="false"
                   className="peer sr-only"
                 />
-                <div className="peer h-7 w-14 rounded-full bg-gmco-white after:absolute after:left-[4px] after:top-0.5 after:h-6 after:w-6 after:rounded-full after:border after:border-gray-300 after:bg-gmco-orange-secondarydark after:transition-all after:content-[''] peer-checked:bg-gmco-white peer-checked:after:translate-x-full peer-checked:after:border-gmco-orange-secondarydark peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-gmco-orange-secondarylight "></div>
+                <div className="peer h-7 w-14 rounded-full bg-slate-200 after:absolute after:left-[4px] after:top-0.5 after:h-6 after:w-6 after:rounded-full after:border after:border-slate-500 after:bg-[#00275E] after:transition-all after:content-[''] peer-checked:bg-slate-200 peer-checked:after:translate-x-full peer-checked:after:border-[#00275E] peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-[#00275E] "></div>
               </label>
             </div>
             <br />
@@ -395,7 +395,7 @@ export default function Profile() {
                       Driyarkara Sanata Dharma
                     </p>
                     <p>
-                      <FaCalendarAlt className="visible inline" /> Sabtu, 27 Mei
+                      <FaCalendarAlt className="visible inline" /> Sabtu, 10 Juni
                       2023
                     </p>
                     <p>
@@ -409,8 +409,8 @@ export default function Profile() {
                     <div className="hidden  items-center rounded-lg bg-gmco-grey py-4 pr-4 sm:flex">
                       <div className="mx-2 overflow-hidden">
                         <Image
-                          src="/logo-anjangsana.webp"
-                          alt="Logo GC"
+                          src="/tickets.webp"
+                          alt="Logo tiket"
                           width={80}
                           height={80}
                         />
@@ -418,10 +418,10 @@ export default function Profile() {
                       <div>
                         <div className="flex w-full flex-col text-start sm:text-end">
                           <h1 className="text-sm font-bold text-white sm:text-base lg:text-2xl">
-                            Grand Concert Vol.10
+                            EventHub
                           </h1>
                           <p className="text-sm font-light text-white lg:text-lg">
-                            Anjangsana Simfoni
+                            Ini Tiket
                           </p>
                         </div>
                       </div>

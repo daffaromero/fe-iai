@@ -13,25 +13,8 @@ import {
 export default function FooterBar() {
   // Menu Lg 1 x (x) SM 1 x 2
   const menus = [
-    {
-      title: "About",
-      submenu: [
-        { name: "Grand Concert #10", route: "/" },
-        { name: "GMCO UGM", route: "https://gmco.ukm.ugm.ac.id/" },
-        { name: "UGM", route: "https://www.ugm.ac.id/" },
-      ],
-    },
-    {
-      title: "Follow us",
-      submenu: [
-        { name: "Instagram", route: "https://www.instagram.com/gmco_ugm/" },
-        { name: "Twitter", route: "https://twitter.com/GMCO_UGM?s=08" },
-        {
-          name: "YouTube",
-          route: "https://www.youtube.com/channel/UC0VSyJsls-u84buKVgWsBUA",
-        },
-      ],
-    },
+    
+    
     {
       title: "Legal",
       submenu: [{ name: "Terms & Conditions", route: "/terms-and-conditions" }],
@@ -44,20 +27,20 @@ export default function FooterBar() {
     { name: <FaWhatsapp className="h-5 w-5" />, route: "/" },
     {
       name: <FaInstagram className="h-5 w-5" />,
-      route: "https://www.instagram.com/gmco_ugm/",
+      route: "https://www.instagram.com",
     },
     {
       name: <FaTwitter className="h-5 w-5" />,
-      route: "https://twitter.com/GMCO_UGM?s=08",
+      route: "https://twitter.com",
     },
     {
       name: <FaFacebook className="h-5 w-5" />,
       route:
-        "https://www.facebook.com/people/Gadjah-Mada-Chamber-Orchestra/100067509763569/",
+        "https://www.facebook.com",
     },
     {
       name: <FaYoutube className="h-5 w-5" />,
-      route: "https://www.youtube.com/channel/UC0VSyJsls-u84buKVgWsBUA",
+      route: "https://www.youtube.com",
     },
   ];
 
@@ -68,7 +51,7 @@ export default function FooterBar() {
           <div className="flex items-center">
             <Image
               src="/logo-event.webp"
-              alt="logo gmco"
+              alt="logo event"
               className="mr-3 h-12 w-max md:h-20"
               width={1000}
               height={1000}

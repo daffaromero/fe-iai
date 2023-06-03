@@ -21,10 +21,8 @@ export default function CloseGatePage() {
         </div>
         <div className="place relative ml-3 mt-14  flex h-3/6 w-full flex-col p-4 text-white backdrop-filter md:mt-0 md:w-7/12 md:items-start md:p-10 ">
           <h1 className="mb-3 text-4xl font-bold md:text-5xl">
-            Grand Concert{" "}
+            EventHub{" "}
           </h1>
-          <p className="font-base mb-3 text-2xl md:text-3xl">Vol.10</p>
-          <p className=" font-base text-2xl md:text-2xl">Anjangsana Simfoni </p>
         </div>
         <Image
           src="/logo_gmco.webp"
@@ -40,7 +38,7 @@ export default function CloseGatePage() {
               Pembelian Tiket Ditutup!
             </h1>
             <p className="pl-2 text-base text-gmco-white">
-              Saat ini belum memasuki masa pembelian tiket Grand Concert Vol. 10 GMCO UGM.
+              Saat ini belum memasuki masa pembelian tiket di Event Hub.
               Pantau lini masa kami di media sosial untuk info lebih lengkap.
             </p>
           </div>

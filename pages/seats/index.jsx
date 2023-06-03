@@ -156,12 +156,12 @@ export default function Seats() {
 
   // universal
   const priceCategory = [
-    { name: "Harmoni Rp190K", price: 190000, lantai: 1, isHover: 0 },
-    { name: "Serenada Rp165K", price: 165000, lantai: 1, isHover: 0 },
-    { name: "Irama Rp140K", price: 140000, lantai: 1, isHover: 0 },
-    { name: "Tala Rp105K", price: 105000, lantai: 1, isHover: 0 },
-    { name: "Sekar Rp85K", price: 85000, lantai: 1, isHover: 0 },
-    { name: "Gita Rp70K", price: 70000, lantai: 2, isHover: 0 },
+    { name: "Harmoni Rp190K", price: 175000, lantai: 1, isHover: 0 },
+    { name: "Serenada Rp165K", price: 150000, lantai: 1, isHover: 0 },
+    { name: "Irama Rp140K", price: 125000, lantai: 1, isHover: 0 },
+    { name: "Tala Rp105K", price: 90000, lantai: 1, isHover: 0 },
+    { name: "Sekar Rp85K", price: 70000, lantai: 1, isHover: 0 },
+    { name: "Gita Rp70K", price: 55000, lantai: 2, isHover: 0 },
   ];
   const statusColor = {
     available: "bg-[#8EBFD0]",
@@ -636,7 +636,7 @@ export default function Seats() {
           const isHighlight = seatHighlight.includes(array[i].price);
           const isHoverHighlight = seatHoverHighlight.includes(array[i].price);
           arr.push(
-            <div className={`duration-300 hover:scale-150 ${deg_rot[i]}`}>
+            <div className={`duration-300 hover:scale-150`}>
               <div
                 className={`rounded-base h-6 w-6 ${
                   statusColor[array[i].status]
@@ -671,16 +671,14 @@ export default function Seats() {
             <div
               className={`rounded-base h-6 w-6 cursor-not-allowed text-center text-[0.7rem] text-gmco-white opacity-80 ${
                 statusColor[array[i].status]
-              } ${deg_rot[i]}`}
+              }`}
             >
               {array[i].name}
             </div>
           );
         }
       } else {
-        arr.push(
-          <div className={`rounded-base h-6 w-6 bg-black ${deg_rot[i]}`} />
-        );
+        arr.push(<div className={`rounded-base h-6 w-6 bg-black`} />);
       }
     }
     return arr;
@@ -700,7 +698,7 @@ export default function Seats() {
             array[index].price
           );
           arr.push(
-            <div className={`duration-300 hover:scale-150 ${deg_rot[i - 1]}`}>
+            <div className={`duration-300 hover:scale-150 `}>
               <div
                 className={`rounded-base h-6 w-6 ${
                   statusColor[array[index].status]
@@ -732,16 +730,14 @@ export default function Seats() {
             <div
               className={`rounded-base h-6 w-6 cursor-not-allowed text-center text-[0.7rem] text-gmco-white opacity-80 ${
                 statusColor[array[index].status]
-              } ${deg_rot[i - 1]}`}
+              } `}
             >
               {array[index].name}
             </div>
           );
         }
       } else {
-        arr.push(
-          <div className={`rounded-base h-6 w-6 bg-black ${deg_rot[i - 1]}`} />
-        );
+        arr.push(<div className={`rounded-base h-6 w-6 bg-black `} />);
       }
     }
     return arr;
@@ -1126,7 +1122,7 @@ export default function Seats() {
             <div
               className={`flex h-full w-max origin-top-left ${scaleFactor[scaleN]} flex-col items-center justify-start p-6`}
             >
-              <div className="relative flex h-max w-3/4 translate-y-[100px] items-center justify-center">
+              <div className="relative flex h-max w-3/4 translate-x-10 translate-y-[100px] items-center justify-center">
                 <Image
                   src="/seatmap/stage.png"
                   className="h-full w-full object-cover object-center"
@@ -1142,15 +1138,15 @@ export default function Seats() {
               {/* Floor1 */}
               {/* ============================ */}
               <div
-                className={`flex h-max w-max pt-8 duration-300 ease-in-out ${
+                className={`flex h-max w-max translate-y-20 pt-8 duration-300 ease-in-out ${
                   curFloor === 1 ? "inline" : "hidden"
                 }`}
               >
                 {/* Left wing */}
-                <div className="pointer-events-none flex translate-x-10">
+                <div className="pointer-events-none flex">
                   {/* left */}
                   {/* row wise */}
-                  <div className="flex translate-x-12 rotate-[24deg] flex-col gap-2 bg-[url('/seatmap/frameleft.png')] bg-cover pl-5">
+                  <div className="flex translate-x-10 flex-col gap-2 bg-[url('/seatmap/frameleft.png')] bg-cover pl-5">
                     {l_seatmap.map((seats) => (
                       // col wise
                       <div
@@ -1163,37 +1159,37 @@ export default function Seats() {
 
                   {/* middle left */}
                   {/* row wise */}
-                  <div className="flex translate-y-44 rotate-[12deg] flex-col items-center justify-end gap-[0.45rem] bg-[url('/seatmap/framemiddleleft.png')] bg-cover pb-12">
-                    {ml_seatmap.map((seats, index) => (
+                  <div className="flex flex-col gap-[0.45rem] bg-[url('/seatmap/framemiddleleft.png')] bg-cover pb-12">
+                    {/* {ml_seatmap.map((seats, index) => (
                       // col wise
                       // prin)
                       <div
-                        className={`pointer-events-auto flex gap-2 ${row_width[index]} justify-between`}
+                        className={`pointer-events-auto flex origin-top-right flex-row justify-start gap-2`}
                       >
                         {leftMapper(seats, userSeatsPick)}
                       </div>
-                    ))}
+                    ))} */}
                   </div>
                 </div>
 
                 {/* Right Wing */}
-                <div className="pointer-events-none flex -translate-x-10">
+                <div className="pointer-events-none flex">
                   {/* middle right */}
                   {/* row wise */}
-                  <div className="flex translate-y-44 -rotate-[12deg] flex-col items-center gap-[0.45rem] bg-[url('/seatmap/framemiddleright.png')] bg-cover">
-                    {mr_seatmap.map((seats, index) => (
+                  <div className="flex translate-x-10 flex-col gap-[0.45rem] bg-[url('/seatmap/framemiddleright.png')] bg-cover">
+                    {/* {mr_seatmap.map((seats, index) => (
                       // col wise
                       <div
-                        className={`pointer-events-auto flex gap-2 ${row_width[index]} justify-between`}
+                        className={`pointer-events-auto flex origin-top-right flex-row justify-end gap-2`}
                       >
                         {rightMapper(seats, userSeatsPick)}
                       </div>
-                    ))}
+                    ))} */}
                   </div>
 
                   {/* right */}
                   {/* row wise */}
-                  <div className="flex -translate-x-12 -rotate-[24deg] flex-col gap-2 bg-[url('/seatmap/frameright.png')] bg-cover pr-5">
+                  <div className="flex translate-x-20 flex-col gap-2 bg-[url('/seatmap/frameright.png')] bg-cover pr-5">
                     {r_seatmap.map((seats) => (
                       // col wise
                       <div

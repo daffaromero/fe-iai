@@ -156,12 +156,12 @@ export default function Seats() {
 
   // universal
   const priceCategory = [
-    { name: "Harmoni Rp190K", price: 175000, lantai: 1, isHover: 0 },
-    { name: "Serenada Rp165K", price: 150000, lantai: 1, isHover: 0 },
-    { name: "Irama Rp140K", price: 125000, lantai: 1, isHover: 0 },
+    // { name: "Harmoni Rp190K", price: 175000, lantai: 1, isHover: 0 },
+    // { name: "Serenada Rp165K", price: 150000, lantai: 1, isHover: 0 },
+    // { name: "Irama Rp140K", price: 125000, lantai: 1, isHover: 0 },
     { name: "Tala Rp105K", price: 90000, lantai: 1, isHover: 0 },
     { name: "Sekar Rp85K", price: 70000, lantai: 1, isHover: 0 },
-    { name: "Gita Rp70K", price: 55000, lantai: 2, isHover: 0 },
+    // { name: "Gita Rp70K", price: 55000, lantai: 2, isHover: 0 },
   ];
   const statusColor = {
     available: "bg-[#8EBFD0]",

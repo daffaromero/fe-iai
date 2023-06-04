@@ -881,7 +881,7 @@ export default function Seats() {
           </div>
 
           {/* Milih Lantai */}
-          <div className="flex w-full justify-center">
+          {/* <div className="flex w-full justify-center">
             <button
               onClick={() => setCurFloor(1)}
               className={`w-[45%] rounded-md py-2 font-semibold drop-shadow-md duration-300 ease-in-out hover:scale-105 ${
@@ -903,7 +903,7 @@ export default function Seats() {
             >
               Lantai 2
             </button>
-          </div>
+          </div> */}
 
           {/* Jumlah Kursi */}
           <div className="flex justify-between px-5 pt-3 md:pt-6">
@@ -1130,7 +1130,7 @@ export default function Seats() {
                   width={2000}
                   height={2000}
                 />
-                <p className="hite absolute z-20 text-8xl font-bold text-gmco-orange-secondarylight drop-shadow-md">
+                <p className="hite absolute z-20 text-6xl font-bold text-gmco-orange-secondarylight drop-shadow-md">
                   STAGE
                 </p>
               </div>

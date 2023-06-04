@@ -11,7 +11,7 @@ export const Loading = ({ isLoading, verboseMsg }) => {
         {/* <img src="/violin-loading.gif"></img> */}
         <Image
           className="w-36"
-          src="/seatmap/musicnotes.gif"
+          src="/seatmap/disco-ball.gif"
           alt="not balok loading"
           width={700}
           height={574}

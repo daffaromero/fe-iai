@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Grand Concert GMCO</title>
+        <title>Event HUB</title>
       </Head>
       <ToastContainer />
       <Component {...pageProps} />

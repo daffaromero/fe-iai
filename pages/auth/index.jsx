@@ -118,9 +118,8 @@ export default function Auth() {
           />
         </div>
         <div className="place relative ml-3 mt-14  flex h-3/6 w-full flex-col p-4 text-white backdrop-filter md:w-7/12 md:items-center  md:p-10 ">
+          {/* <img src="/logo-event.webp" alt="logo" className="mb-3"/> */}
           <h1 className="mb-3 text-4xl font-bold md:text-5xl">Event Hub </h1>
-          {/* <p className="font-base mb-3 text-2xl md:text-3xl">Vol.10</p>
-            <p className=" font-base text-2xl md:text-2xl">Anjangsana Simfoni </p> */}
         </div>
         <Image
           src="/homepage/ticket.webp"

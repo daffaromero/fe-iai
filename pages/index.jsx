@@ -110,6 +110,7 @@ export default function Home() {
                   <span className="text-gmco-orange-secondarydark">.</span>
                 </h1>
                 <p className="mb-4 text-justify text-base font-light leading-normal opacity-80 md:text-lg">
+                  
                   Seorang musisi, komponis, <i>conductor</i>, dan penata suara
                   asal Indonesia. Kecintaannya pada dunia orkestra diwujudkan
                   bersama Indra U. Bakrie dan Oddie Agam dalam mendirikan{" "}
@@ -131,9 +132,9 @@ export default function Home() {
                 </p>
                 <a
                   className="delay-15 text-gmco-gray border-b-2 py-3 transition duration-300 ease-in-out hover:border-gmco-orange-secondarylight"
-                  href="https://id.wikipedia.org/wiki/Addie_MS"
+                  href="https://id.wikipedia.org/wiki/tulus_(penyanyi)"
                 >
-                  More About Addie MS
+                  More About Tulus
                 </a>
               </div>
             </RevealWrapper>
@@ -169,8 +170,8 @@ export default function Home() {
             >
               <div className="flex h-[50vh] items-center md:h-[90vh] md:p-8">
                 <Image
-                  src="/homepage/brian2.webp"
-                  alt="gambar brian p"
+                  src="/homepage/aldi-taher-bnw.png"
+                  alt="gambar aldi taher"
                   className="mx-auto max-h-full w-full object-cover"
                   width={500}
                   height={500}
@@ -189,29 +190,22 @@ export default function Home() {
                   Special,
                 </div>
                 <h1 className="mb-4 mt-2 text-2xl font-extrabold leading-tight md:text-7xl">
-                  <span className="">Brian Prasetyoadi</span>
+                  <span className="">Aldi Taher</span>
                   <span className="text-gmco-orange-secondarylight">.</span>
                 </h1>
                 <p className="mb-4 text-justify text-base font-light leading-normal opacity-90 md:text-lg">
-                  Penyanyi dan penulis lagu ini pernah mengibarkan bendera
-                  Jikustik sebagai vokalis dari tahun 2009-2023. Bersama
-                  Jikustik, Brian ikut berkontribusi dalam 4 album studio dan
-                  sederetan single. Pria kelahiran Yogyakarta, 13 Oktober 1992
-                  ini pernah juga merilis <i>single</i> berjudul Kau
-                  Satu-Satunya bersama Gaby, istri tercintanya. Dan jauh
-                  sebelumnya lagi, Brian pun pernah menghadirkan 3 karya lagu
-                  dalam konsep musikalisasi puisi berjudul Pelabuhan Hati,
-                  Pelangi Cinta dan Cahaya Di Penjuru Hati. Kini Brian memulai
-                  langkah karirnya sebagai soloist di skena musik tanah air.
-                  Sebagai penanda langkah tersebut, Brian memperkenalkan estafet
-                  musikalnya dalam single lagu yang diberi judul{" "}
-                  <b className="font-bold">Sudah</b>.
+                  Aldi Taher merupakan seorang aktor,<i>presenter</i>, <i>singer</i>, 
+                  dan model. Dia lahir pada October 25, 1983, di Jayapura, Irian Jaya, Indonesia. 
+                  Dia menjadi terkenal setelah menjadi seorang <i>finalist</i> pada ajang pencarian 
+                  model di majalah Aneka Yess! tahun 2001. Dia juga merupakan pembuat lagu dan seorang
+                  politisi dengan berbagai histori partai politik yang bermacam-macam. Dia pernah menikah
+                  pada tahun 2008 dan sudah memiliki anak.
                 </p>
                 <a
                   className="delay-15 border-b-2 border-gmco-orange-secondarylight py-3 text-gmco-white transition duration-300 ease-in-out hover:border-gmco-grey"
-                  href="https://open.spotify.com/artist/17Yb156MR5C8M2Ktr22mww"
+                  href="https://id.wikipedia.org/wiki/Aldi_Taher"
                 >
-                  More About Brian Prasetyoadi
+                  More About Aldi Taher
                 </a>
               </div>
             </RevealWrapper>

@@ -12,7 +12,7 @@ export default function CloseGatePage() {
         {/* leftside */}
         <div className="absolute h-full w-full bg-gmco-grey">
           <Image
-            src="/logo-anjangsana.webp"
+            src="/logo-event.webp"
             alt="bg gmco concert"
             className="h-full w-auto object-cover opacity-50"
             width={2000}
@@ -25,7 +25,7 @@ export default function CloseGatePage() {
           </h1>
         </div>
         <Image
-          src="/logo_gmco.webp"
+          src="/logo-event.webp"
           alt="logo"
           className="absolute left-5 top-3 w-32 md:left-9 md:top-3/4 md:w-52"
           width={1000}

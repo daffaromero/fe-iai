@@ -188,7 +188,7 @@ export default function NavigationBar({ doUpdate }) {
                 <Avatar
                   rounded={true}
                   alt="User settings"
-                  img="/navbar/violin-picture.webp"
+                  img="/navbar/disco-ball.webp"
                 >
                   <p className="hidden font-semibold lg:inline">
                     {logedUser.Email}

@@ -88,14 +88,15 @@ export default function FooterBar() {
         <div className="text-sm text-gray-500">
           &copy;
           <Link
-            href="https://gmco.ukm.ugm.ac.id/"
+            href="#"
             className="font-bold hover:text-gmco-white"
           >
             Event Hub{" "}
           </Link>
           Powered by
           <Link
-            href="https://discord.gg/VJwwMYNM"
+            // href="https://discord.gg/VJwwMYNM"
+            href="#"
             className="font-bold hover:text-gmco-white"
           >
             {" "}

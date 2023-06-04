@@ -260,11 +260,11 @@ export default function Profile() {
             <div className="right-0 float-right inline-flex items-center space-x-4">
               <div>
                 {isEditing ? (
-                  <span className="text-md ml-3 font-medium text-slate-500">
+                  <span className="text-md ml-3 font-medium  text-gray-800">
                     Editing
                   </span>
                 ) : (
-                  <span className="text-md ml-3 font-medium text-slate-500">
+                  <span className="text-md ml-3 font-medium text-gray-800 ">
                     Viewing
                   </span>
                 )}
@@ -282,7 +282,7 @@ export default function Profile() {
             </div>
             <br />
             {/* Name */}
-            <label htmlFor="nama" className="text-gmco-white">
+            <label htmlFor="nama" className=" text-gray-500">
               Nama
             </label>
             <input
@@ -298,7 +298,7 @@ export default function Profile() {
             />
 
             {/*Email*/}
-            <label htmlFor="email" className="text-gmco-white">
+            <label htmlFor="email" className="text-gray-500">
               Email<span className="text-red-500">*</span>
             </label>
             <input
@@ -314,7 +314,7 @@ export default function Profile() {
             />
 
             {/* Phone Number */}
-            <label type="whatsapp" className="text-gmco-white">
+            <label type="whatsapp" className="text-gray-500">
               Nomor WhatsApp<span className="text-red-500">*</span>
             </label>
             <input

@@ -149,7 +149,7 @@ export default function NavBarAdmin() {
                 <Avatar
                   rounded={true}
                   alt='User settings'
-                  img='navbar/violin-picture.webp'
+                  img='navbar/disco-ball.webp'
                 />
               }
             >

@@ -229,14 +229,14 @@ export default function Cart() {
                       <td className="border-t border-gmco-grey pt-4">
                         <div className="flex flex-col items-center justify-center gap-1 md:flex-row md:gap-3 md:text-sm">
                           <p
-                            className={`text-md w-24 rounded-lg p-1 text-center font-semibold capitalize text-gmco-white md:p-2 ${
+                            className={`text-md w-24 rounded-full p-1 text-center font-semibold capitalize text-gmco-white md:p-2 ${
                               category[seatBought.category]
                             }`}
                           >
                             {seatBought.category}
                           </p>
                           <p
-                            className={`w-24 rounded-lg p-1 text-center font-semibold md:p-2 ${
+                            className={`w-24 rounded-full p-1 text-center font-semibold md:p-2 ${
                               seatBought.name[0] > "S"
                                 ? "bg-gmco-white/75 text-gmco-grey"
                                 : "bg-gmco-grey/50 text-gmco-white/100"
@@ -276,7 +276,7 @@ export default function Cart() {
                 <div className="mt-6 flex w-full justify-center">
                   <button
                     onClick={() => handleCheckout()}
-                    className="flex w-full items-center justify-center rounded-lg border-2 border-gmco-grey/50 bg-gmco-yellow-secondary py-2 text-lg font-bold text-gmco-white transition duration-200 ease-out hover:bg-gmco-orange-secondarydark hover:shadow-lg"
+                    className="flex w-full items-center justify-center rounded-full border-2 border-gmco-grey/50 bg-cyan-900 py-2 text-lg font-bold text-gmco-white transition duration-200 ease-out hover:bg-cyan-700 hover:shadow-lg"
                   >
                     ORDER
                   </button>
@@ -286,7 +286,7 @@ export default function Cart() {
                   <p className="text-md text-gmco-grey">Batalkan Transaksi</p>
                   <button
                     onClick={() => cancelCheck()}
-                    className="flex items-center justify-center rounded-md border border-transparent bg-gmco-orange-secondarydark bg-opacity-90 px-6 py-2 text-base font-medium text-white shadow-sm transition duration-200 ease-out hover:bg-gmco-orange-secondarydark"
+                    className="flex items-center justify-center rounded-md border border-transparent bg-cyan-900 bg-opacity-90 px-6 py-2 text-base font-medium text-white shadow-sm transition duration-200 ease-out hover:bg-cyan-700"
                   >
                     <TrashIcon className="h-5 w-5" />
                   </button>

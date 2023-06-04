@@ -110,7 +110,7 @@ export default function Auth() {
         {/* leftside */}
         <div className="absolute h-full w-full bg-gmco-grey">
           <Image
-            src="/MoreMicon.webp"
+            src="/large-audience.webp"
             alt="bg gmco concert"
             className="h-full w-auto object-cover opacity-50"
             width={2000}

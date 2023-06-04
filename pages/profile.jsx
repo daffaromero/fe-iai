@@ -217,7 +217,7 @@ export default function Profile() {
         <div className="relative h-max w-full overflow-hidden ">
           <div className="absolute flex h-64 w-full overflow-hidden bg-gmco-grey">
             <Image
-              src="/MoreMicon.webp"
+              src="/back-crowd.webp"
               alt="background eventhub"
               className="w-full scale-105 object-cover object-center opacity-50"
               width={1920}

@@ -194,7 +194,7 @@ export default function Home() {
                   <span className="text-gmco-orange-secondarylight">.</span>
                 </h1>
                 <p className="mb-4 text-justify text-base font-light leading-normal opacity-90 md:text-lg">
-                  Aldi Taher merupakan seorang aktor,<i>presenter</i>, <i>singer</i>, 
+                  Aldi Taher merupakan seorang aktor, <i>presenter</i>, <i>singer</i>, 
                   dan model. Dia lahir pada October 25, 1983, di Jayapura, Irian Jaya, Indonesia. 
                   Dia menjadi terkenal setelah menjadi seorang <i>finalist</i> pada ajang pencarian 
                   model di majalah Aneka Yess! tahun 2001. Dia juga merupakan pembuat lagu dan seorang

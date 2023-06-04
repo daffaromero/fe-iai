@@ -17,7 +17,7 @@ export default function FooterBar() {
     
     {
       title: "Legal",
-      submenu: [{ name: "Terms & Conditions", route: "/terms-and-conditions" }],
+      submenu: [{ name: "Terms & Conditions", route: "/#" }],
     },
   ];
 
